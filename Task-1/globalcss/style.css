@@ -1,0 +1,183 @@
+html {
+    height: 100%;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(56, 56, 56);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    top: 0;
+    
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: black;
+    color: yellowgreen;
+}
+.navbar li {
+    float: left;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    
+}
+.highlighted {
+    font-size: x-large;
+    text-decoration: underline;
+}
+h1 {
+    font-size: 300%;
+    margin: 10px;
+    text-align: center;
+}
+
+@media (max-width: 550px) {
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar li{
+        width: 100%;
+        text-align: center;
+        display: block;
+        float: none;
+    }
+    .navbar a{
+        display: block;
+    
+    }
+    .navbar{
+        position: relative;
+    }
+    footer td{
+        
+        padding: 0.5em;
+        color: aliceblue;
+        text-align: center;
+
+    }
+    footer h2{
+        
+        padding: 0;
+        color: aliceblue;
+        font-size: medium;
+
+    }
+    footer a{
+        
+        padding: 0;
+        color: aliceblue;
+        font-size: x-small;
+
+    }
+    
+}
+#first img{
+    height: 20rem;
+    position: flex;
+    max-width: 100%
+
+}
+#first_text {
+    font-size: x-large;
+}
+#first {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#first p{
+    width: 50%;
+    
+}
+.second_text{
+    margin: 5rem;
+    width: 50%;
+}
+#first_about img{
+    height: 20rem;
+    display: flex;
+    max-width: 100%
+}
+#first_about {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#bicycle {
+    width: 375px;
+}
+.bicycle {
+    margin: 0;
+}
+#main_about {
+    background-color: lightblue;
+}
+.photos {
+    height: 300px;
+}
+#gallery_div {
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#gallery_div > figure {
+    margin: 10px;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: auto;
+    
+    
+}
+footer td{
+    font-size: 75%;
+    padding: 1em;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    font-size: small;
+
+    
+}
+footer tr h2 {
+    margin: 0;
+}
+footer a{
+    color: aliceblue;
+}
+
+
+
