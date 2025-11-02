@@ -30,12 +30,13 @@ html {
 .navbar li {
     float: left;
 }
-/* #index_main {
-    background-image: url(/Task-1/images/background.jpg);
+#index_main {
+    background-image: url(/Task-1/images/welcomebackground.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; 
-}*/
+    background-size: cover;
+}
+
 #welcomepicture {
     border-radius: 20%;
 }
@@ -56,7 +57,7 @@ body {
 }
 h1 {
     font-size: 300%;
-    margin: 10px;
+    margin: 2rem;
     text-align: center;
 }
 #formBox{
@@ -74,8 +75,171 @@ h1 {
     padding: 0%;
     margin-bottom: 1rem;
 
-    /* border: none; */
+    border: none;
 }
+
+#first img{
+    height: 20rem;
+    position: flex;
+    max-width: 100%
+
+}
+#first_text {
+    font-size: x-large;
+}
+#first {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#first p{
+    width: 50%;
+    
+}
+.second_text{
+    margin: 5rem;
+    width: 50%;
+}
+#first_about img{
+    height: 20rem;
+    display: flex;
+    max-width: 100%
+}
+#first_about {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bicycle {
+    margin: 0;
+    border-radius: 30px;
+}
+#main_about {
+    background-image: url(/Task-1/images/backgroundChess.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue; 
+}
+#main_cv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+#main_contact {
+    background-image: url(/Task-1/images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+#box_wholeForm{
+    background-color: rgb(56, 56, 56);
+    max-width: 700px;
+    margin: 50px;
+    color: aliceblue;
+}
+.cvText1 {
+    width: 50%;
+    display: flex;
+
+}
+.cvSec2 {
+    max-width: 600px;
+    margin-top: 10px;
+}
+#cvPhoto {
+    border-radius: 70px; 
+    width: auto;
+    max-height: 500px;
+    margin: 0;
+    padding: 0;
+}
+.cv_lists li {
+    margin: 10px;
+}
+.photos {
+    height: 300px;
+}
+#gallery_div {
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#gallery_div > figure {
+    margin: 10px;
+    padding: 0;
+}
+
+.labels{
+    margin: 1rem;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgb(56, 56, 56);
+  border-color: white;
+  min-width: 300px;
+  color: aliceblue;
+}
+input[type="submit"]:hover {
+    color: yellowgreen;
+    background-color: black;
+}
+footer {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: auto;
+    
+    
+}
+footer td{
+    font-size: 75%;
+    padding: 1em;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    font-size: small;
+}
+footer tr h2 {
+    margin: 0;
+}
+footer a{
+    color: aliceblue;
+}
+@media (max-width: 750px){
+    .cvText1 {
+        width: 100%;
+    }
+    #cvPhoto {
+    border-radius: 70px; 
+    width: auto;
+    max-height: 300px;
+    }
+
+}
+
 @media (max-width: 550px) {
     .navbar ul{
         display: flex;
@@ -118,6 +282,10 @@ h1 {
         font-size: x-small;
 
     }
+    .cvText1 {
+    width: 100%;
+    display: flex;
+    }
     #gallery_div > figure {
     width: 90%;
     height: auto;
@@ -138,118 +306,15 @@ h1 {
     "box-4"
     "box-5"; 
     width: 99%;
-    height: 800px;
-    border: red solid 2px;
+    height: 600px;
     padding: 0%;
     margin: 1rem 0 1rem 0;
+    border: 0;
+    }
+    #box_wholeForm{
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     
 }
-#first img{
-    height: 20rem;
-    position: flex;
-    max-width: 100%
-
-}
-#first_text {
-    font-size: x-large;
-}
-#first {
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-#first p{
-    width: 50%;
-    
-}
-.second_text{
-    margin: 5rem;
-    width: 50%;
-}
-#first_about img{
-    height: 20rem;
-    display: flex;
-    max-width: 100%
-}
-#first_about {
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#bicycle {
-    width: 375px;
-}
-.bicycle {
-    margin: 0;
-}
-#main_about {
-    background-color: lightblue;
-}
-.photos {
-    height: 300px;
-}
-#gallery_div {
-    padding: 0 ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#gallery_div > figure {
-    margin: 10px;
-    padding: 0;
-}
-
-.labels{
-    margin: 1rem;
-}
-form{
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    
-}
-input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: rgb(56, 56, 56);
-  border-color: white;
-  min-width: 300px;
-  color: aliceblue;
-}
-footer {
-    background-color: rgb(56, 56, 56);
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: auto;
-    
-    
-}
-footer td{
-    font-size: 75%;
-    padding: 1em;
-    color: aliceblue;
-    text-align: center;
-    padding-left: 1vw;
-    padding-right: 2vw;
-    font-size: small;
-
-    
-}
-footer tr h2 {
-    margin: 0;
-}
-footer a{
-    color: aliceblue;
-}
-
-
-
