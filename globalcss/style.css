@@ -31,7 +31,7 @@ html {
     float: left;
 }
 #index_main {
-    background-image: url(/Task-1/images/welcomebackground.jpg);
+    background-image: url(/images/welcomebackground.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -118,7 +118,7 @@ h1 {
     border-radius: 30px;
 }
 #main_about {
-    background-image: url(/Task-1/images/backgroundChess.jpg);
+    background-image: url(/images/backgroundChess.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -132,7 +132,7 @@ h1 {
     
 }
 #main_contact {
-    background-image: url(/Task-1/images/background.jpg);
+    background-image: url(/images/background.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
